@@ -26,4 +26,4 @@ class Car:
                 self.price = int(self.price) / 10000000
 
     def __str__(self):
-        return f"{self.name}\nرنگ: {self.color}\nکارکرد: {self.mileage} کیلومتر\nقیمت: {self.price} میلیلون تومان\n{self.city}-{self.district}\n{self.url}\n\n{self.image}"
+        return f"{self.name}\nرنگ: {self.color}\nکارکرد: {self.mileage} کیلومتر\nقیمت: {self.price} میلیون تومان\n{self.city}-{self.district}\n{self.url}\n\n{self.image}"
